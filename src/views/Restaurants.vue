@@ -1,9 +1,13 @@
 <template>
   <div class="container py-5">
     <NavTabs />
-    <h1 class="mt-5">
-      首頁 - 餐廳列表
-    </h1>
+    <!-- 餐廳類別標籤 RestaurantsNavPills -->
+
+    <div class="row">
+      <!-- 餐廳卡片 RestaurantCard-->
+    </div>
+
+    <!-- 分頁標籤 RestaurantPagination -->
   </div>
 </template>
 
