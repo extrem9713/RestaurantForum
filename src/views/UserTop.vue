@@ -441,14 +441,14 @@ export default {
     },
      addFollow () {
       this.user = {
-        ...this.user, // 保留餐廳原有資料
+        ...this.user, 
         isFollowed: true
       }
       
     },
     deleteFollow () {
       this.user = {
-        ...this.user, // 保留餐廳原有資料
+        ...this.user, 
         isFollowed: false
       }
       
