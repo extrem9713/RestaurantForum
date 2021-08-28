@@ -31,10 +31,11 @@
     </div>
     <div class="col-lg-8">
       <p>{{ restaurant.description }}</p>
-      <a
+      <router-link
+        to="/restaurants/:id/dashboard"
         class="btn btn-primary btn-border mr-2"
         href="#"
-      >Dashboard</a>
+      >Dashboard</router-link>
 
       <button
         type="button"

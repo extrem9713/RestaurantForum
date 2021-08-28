@@ -48,6 +48,12 @@ const routes = [
     name: 'restaurant',
     component: () => import('../views/Restaurant.vue')
   },
+
+  {
+    path: '/restaurants/:id/dashboard',
+    name: 'restaurantdashboard',
+    component: () => import('../views/RestaurantDashboard.vue')
+  },  
   
   {
     path: '/users/top',
