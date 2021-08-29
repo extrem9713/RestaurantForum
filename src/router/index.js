@@ -40,7 +40,13 @@ const routes = [
   {
     path:'/admin/user',
     name: 'user',
-    component: () => import('../views/User.vue')
+    component: () => import('../views/AdminUsers.vue')
+  },
+
+  {
+    path:'/admin/user/edit',
+    name: 'user-edit',
+    component: () => import('../views/UserEdit.vue')
   },
 
   {
